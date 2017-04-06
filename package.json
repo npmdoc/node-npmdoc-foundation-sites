@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"foundation-sites",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "foundation-sites",
+    "description": "api documentation for [foundation-sites (v6.3.1)](http://foundation.zurb.com/sites) [![npm package](https://img.shields.io/npm/v/npmdoc-foundation-sites.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-foundation-sites) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-foundation-sites.svg)](https://travis-ci.org/npmdoc/node-npmdoc-foundation-sites)",
     "devDependencies": {
-        "foundation-sites": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "foundation-sites": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-foundation-sites",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-foundation-sites",
+    "keywords": [
+        "documentation",
+        "foundation-sites"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_foundation_sites.js",
+    "name": "npmdoc-foundation-sites",
+    "nameAlias": "npmdoc_foundation_sites",
+    "nameOriginal": "npmdoc-foundation-sites",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-foundation-sites"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
