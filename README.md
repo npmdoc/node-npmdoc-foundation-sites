@@ -1,9 +1,14 @@
-# api documentation for  [foundation-sites (v6.3.1)](http://foundation.zurb.com/sites)  [![npm package](https://img.shields.io/npm/v/npmdoc-foundation-sites.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-foundation-sites) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-foundation-sites.svg)](https://travis-ci.org/npmdoc/node-npmdoc-foundation-sites)
+# npmdoc-foundation-sites
+
+#### api documentation for  [foundation-sites (v6.3.1)](http://foundation.zurb.com/sites)  [![npm package](https://img.shields.io/npm/v/npmdoc-foundation-sites.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-foundation-sites) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-foundation-sites.svg)](https://travis-ci.org/npmdoc/node-npmdoc-foundation-sites)
+
 #### The most advanced responsive front-end framework in the world.
 
-[![NPM](https://nodei.co/npm/foundation-sites.png?downloads=true)](https://www.npmjs.com/package/foundation-sites)
+[![NPM](https://nodei.co/npm/foundation-sites.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/foundation-sites)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-foundation-sites/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-foundation-sites_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-foundation-sites/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-foundation-sites/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-foundation-sites/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-foundation-sites/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-foundation-sites/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-foundation-sites/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "ZURB",
-        "email": "foundation@zurb.com",
         "url": "http://foundation.zurb.com"
     },
     "browserify": {
@@ -34,8 +38,7 @@
         ]
     },
     "bugs": {
-        "url": "https://github.com/zurb/foundation-sites/issues",
-        "email": "foundation@zurb.com"
+        "url": "https://github.com/zurb/foundation-sites/issues"
     },
     "dependencies": {
         "jquery": ">=2.2.0",
@@ -147,29 +150,23 @@
     "main": "dist/js/foundation.js",
     "maintainers": [
         {
-            "name": "arthurzurb",
-            "email": "arthur@zurb.com"
+            "name": "arthurzurb"
         },
         {
-            "name": "eddiedean",
-            "email": "christopher.oyler@gmail.com"
+            "name": "eddiedean"
         },
         {
-            "name": "gakimball",
-            "email": "geoff@geoffkimball.com"
+            "name": "gakimball"
         },
         {
-            "name": "kbal11",
-            "email": "kball@zurb.com"
+            "name": "kbal11"
         },
         {
-            "name": "rafibomb",
-            "email": "rafi@zurb.com"
+            "name": "rafibomb"
         }
     ],
     "name": "foundation-sites",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/zurb/foundation-sites.git"
@@ -188,16 +185,6 @@
     "version": "6.3.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module foundation-sites](#apidoc.module.foundation-sites)
-
-
-
-# <a name="apidoc.module.foundation-sites"></a>[module foundation-sites](#apidoc.module.foundation-sites)
 
 
 
